@@ -8,20 +8,65 @@
 	<link href="css/normalize.css" rel="stylesheet">
 </head>
 <body>
+	
+		<img src="img/faux_img2.svg" alt="header">
 
+	<hr>
 	<ul>
 		<li><a href="home.html"> Home </a></li>
-		<li><a href="plan.html"> Our Plan </a></li>
+		<li><a href="services.html"> Services </a></li>
 		<li><a href="contact.html"> Contact </a></li>
 	</ul>
-
-<div class="contact">
-
-	<label for="email">What's your email?</label>
 	<br>
+	<hr>
+<div class="contact"> 
+
+<h2> Let's talk business. Get your quote now. </h2>
+
+	<label for="email">Enter your email address:</label>
+	<br><br>
 	<input type="text" id="email">
 	
+	<h3>Pickup Location: </h3>
+	<div class="from">
+	<select id="location1">
+	<option value="none">Choose location</option>
+	<option value="mars">Earth</option>
+	<option value="earth">Mars</option>
+	</select>
+	</div>
+
+	
+	<h3>Dropoff Location: </h3>
+	<div class="to">
+	<select id="location2">
+	<option value="none">Choose location</option>
+	<option value="mars">Earth</option>
+	<option value="earth">Mars</option>
+	</select>
+	</div>
+
+	<h3>Package Weight: </h3>
+	<div class="weight">
+	<select id="package">
+	<option value="select">Select weight</option>
+	<option value="light">0-25kgs</option>
+	<option value="medium">26-45kgs</option>
+	<option value="heavy">46-50kgs</option>
+	</select>
+	</div>
+	
+	<br><br><Br>
+	<h3>Submit to get your quote!</h3>
+	<p>
+	<input type="button" id="submit" value="Submit">
+	</p>
+
 </div>
+	
+	<img src="img/mps_icon10.png">
+
+	<hr>
 	<script src="js/faux.js"></script>
 </body>
 </html>
