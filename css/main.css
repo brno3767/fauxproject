@@ -1,4 +1,6 @@
-.enter { width: 120px; margin: auto; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: 300; text-decoration: none; color: white; }
+.enter { width: 120px; margin: auto; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: 300; }
+
+.enter a { color: white; text-decoration: none; font-size: 18px; text-align: center; }
 
 .front h1 { text-align: center; margin: auto; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: 300; color: white; padding: 100px; opacity: 0.85; }
 
@@ -86,15 +88,15 @@ body { background-color: black; font-family: "HelveticaNeue-Light", "Helvetica N
 
 img { display: block; margin-left: auto; margin-right: auto; padding-bottom: 40px; opacity: 0.85; }
 
-ul { margin-left: 0px; margin-right: 0px; margin-top: 20px; margin-bottom: 0px; list-style-type: none; padding-top: 0px; overflow: hidden; background-color: black; border-radius: 10px 10px 10px 10px; opacity: 0.7; }
+ul { margin: auto; margin-top: 20px; margin-bottom: 0px; list-style-type: none; padding-top: 0px; overflow: hidden; background-color: black; border-radius: 10px 10px 10px 10px; opacity: 0.7; }
 
 li { float: left; padding-left: 200px; opacity: 0.7; }
 
 li a { display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none; border-radius: 15px 15px 15px 15px; }
 
-li a:hover { background-color: #00aeef; border-radius: 15px 15px 15px 15px; transition: .7s; }
+li a:hover { background-color: #64aeef; border-radius: 15px 15px 15px 15px; transition: .7s; }
 
-li a:active { background-color: #00aeef; border-radius: 15px 15px 15px 15px; font: black; opacity: 0.7; }
+li a:active { background-color: #64aeef; border-radius: 15px 15px 15px 15px; font: black; opacity: 0.7; }
 
 .services h2 { text-align: center; margin: auto; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: 300; color: white; }
 
@@ -107,3 +109,13 @@ li a:active { background-color: #00aeef; border-radius: 15px 15px 15px 15px; fon
 .contact h2 { font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: 300; color: white; }
 
 .contact h3 { font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: 300; color: white; }
+
+.contact img { display: block; margin-left: auto; margin-right: auto; padding-bottom: 0px; opacity: 0.85; width: 200px; position: relative; right: 40px; }
+
+.address { width: 200px; float: right; position: relative; bottom: 180px; right: 40px; padding-right: 60px; }
+
+.address h3 { font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: 300; color: white; text-align: right; }
+
+.address p { font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: 300; color: white; text-align: right; float: right; }
+
+footer { text-align: center; margin: auto; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: 300; color: gray; }
